@@ -1,0 +1,28 @@
+#overlay {
+    position: fixed;
+    width: 100vh;
+    height: 100vw;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+#popup button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button {
+    color: white;
+    background-color: #ff0000;
+    padding: 2px 10px;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 15px;
+}
+

@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    background-image: url('../media/bg.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.connection {
+    width: fit-content;
+    color: lime;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-right: auto;
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .connection {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+}
+@media only screen and (max-width: 425px){
+    .connection {
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-height: 600px){
+    .containerDirect a {
+        margin-top: 2vh !important;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 14px !important;
+        transition: all 0.15s;
+        }
+}
+
+.containerDirect {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 85vh;
+    border-radius: 25px;
+    background: rgba(49, 49, 49, 0.60);
+    backdrop-filter: blur(13.5px);
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+
+}
+.containerDirect img {
+    margin-top: 5vh;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.containerDirect a {
+margin-top: 1vh;
+border-radius: 20px;
+background: #8F00FF;
+color: white;
+text-decoration: none;
+padding: 2px 20px;
+font-size: 24px;
+transition: all 0.15s;
+}
+
+.containerDirect a:hover {
+    background-color: #b85bff;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    
+}
+
+.popup-content {
+    background-color: #262626bf;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    width: 80%;
+    height: 35vh;
+    max-width: 600px;
+    border-radius: 10px;
+    position: relative;
+    color: white ;
+    overflow-y: scroll;
+}
+
+.close {
+    color: #8F00FF;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.title h1 {
+    color: #8F00FF;
+    font-size: 64px;
+
+}
+
+.connexion {
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(49, 49, 49, 0.80) 0%, #000 246.3%);
+    backdrop-filter: blur(13.7px);
+    text-align: center;
+    width: 350px;
+    padding: 0 20px;
+    align-items: center;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.login {
+    padding: 20px;
+    align-items: center;
+    
+    
+}
+.login input[type="text"], .login input[type="password"]{
+    
+    border-radius: 15px;
+    border: 1px solid #FFF;
+    background: rgba(217, 217, 217, 0.00);
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    font-size: 16px;
+}
+
+.login .signin {
+    border-radius: 10px;
+    background: #8F00FF;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-size: 26px;
+    padding: 3px 30px;
+    outline: none;
+    border: none;
+    margin-top: 60px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.login .signin:hover {
+    background: #530093;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.9) !important;
+}
+
+.inputInfo {
+    text-align: left;
+    color: white;
+}
+
+.inputInfofirst {
+    margin-bottom: 35px !important;
+    text-align: left;
+    color: white;
+}
+
+p {
+    margin: 0 0;
+    font-size: 20px;
+}
+
+.title {
+    border-bottom: 3px solid #FFF;
+    margin-bottom: 60px;
+}
+
+.container {
+    margin: 0;
+    height: 96vh;
+    position: relative;
+}
+
+a {
+    color: white ;
+}
